@@ -6,6 +6,15 @@
          xmlns="http://java.sun.com/xml/ns/javaee">
 
   <!-- Servlets -->
+  <servlet>
+  	<servlet-name>chatService</servlet-name>
+  	<servlet-class>org.nfe.gwt.cryptchat.server.ChatServiceServerImpl</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>chatService</servlet-name>
+  	<url-pattern>/cryptchat/chatService</url-pattern>
+  </servlet-mapping>
   
   <!-- Default page to serve -->
   <welcome-file-list>

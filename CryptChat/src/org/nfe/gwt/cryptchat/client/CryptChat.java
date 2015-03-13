@@ -39,6 +39,8 @@ public class CryptChat implements EntryPoint {
 	 */
 	public void onModuleLoad() {
 		
+		RootPanel.get().add(new Label("HeloWorld"));
+		
 		
 		
 	}
