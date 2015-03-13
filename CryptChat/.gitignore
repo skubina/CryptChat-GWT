@@ -1,1 +1,5 @@
 /test-classes/
+/war/cryptchat/
+*.settings*
+/gwt-unitCache/
+
