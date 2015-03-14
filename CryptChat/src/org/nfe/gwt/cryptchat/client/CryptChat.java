@@ -39,6 +39,8 @@ public class CryptChat implements EntryPoint {
 	 */
 	public void onModuleLoad() {
 		
+		ChatServiceClientImpl service = new ChatServiceClientImpl(GWT.getModuleBaseURL() + "chatService");
+		
 		RootPanel.get().add(new Label("HeloWorld"));
 		
 		
