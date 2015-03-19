@@ -48,7 +48,7 @@ ChatService{
 			user = new User(username, SecurityTools.makeRendomHash());
 		}
 		
-		UserList.addUser(user);
+		UserList.addUser(user, this);
 	
 		
 		return user.getUniqueSessionID();
